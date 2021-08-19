@@ -23,7 +23,14 @@ You will need to request and allocation for you lab and have RC create a biokem-
 [Blanca](https://www.colorado.edu/rc/resources/blanca) is RC's condo computing cluster. This cluster allows users to purchase their own computing nodes that RC will then house, setup, and manage. Users have priority on the nodes they own, but have access to use other users nodes when they are available. The BioKEM facility owns two types of nodes: one reserved for on the fly motion correction and the other for users of the facility to process EM data. The physical space we are allotted can house up to 10 processing nodes in addition to the on the fly node. These nodes are purchased by individual labs, but are then shared by all members of the BioKEM facility. Each node will consist of a number of GPUs (typically 4) and CPUs, as well as RAM to run jobs. All jobs ran in the cluster are submitted by a workload manager called SLURM.
 
 ### SLURM
-[SLURM](https://slurm.schedmd.com) is the management system many computing clusters, including Blanca use to run jobs. It allows multiple users to use the same computing resources by distributing jobs across resources and scheduling jobs to start when resources become available. 
+[SLURM](https://slurm.schedmd.com) is the management system many computing clusters, including Blanca use to run jobs. It allows multiple users to use the same computing resources by distributing jobs across resources and scheduling jobs to start when resources become available. The main benefits to us of using SLURM are:
+
+  - Maximize utilization of nodes by running 24/7
+  - Avoid single users from hogging resources
+  - Create easy to replicate workflows
+  - Allows us to use non-BioKEM nodes when they are available
+
+All of these will bring the cost of high performance computing per lab down drastically, while working within a consistent compute environment that should be easier for the community to troubleshoot than working in individual labs.
 
 ### SBGrid
 
