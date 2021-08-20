@@ -33,5 +33,17 @@ You will need to request and allocation for you lab and have RC create a biokem-
 All of these will bring the cost of high performance computing per lab down drastically, while working within a consistent compute environment that should be easier for the community to troubleshoot than working in individual labs.
 
 ### SBGrid
+To manage all of the software necessary for processing EM data, we are using a software manager called [SBGrid](https://sbgrid.org). This service allows to maintain multiple versions of software, as well as easily install and update new software. General members of the EM community may use a basic set of software under the facility's license including:
+  - crYOLO
+  - CTFFind
+  - cryoDRGN
+  - deepEMhancer
+  - MotionCor2
+  - PyEM
+  - Relion
+
+Labs interested in using the suite of ~400 programs must purchase a lab specific license from SBGrid, we will then grant lab members access to these applications.
+
+Commercial users are limited to a few preprocessing applications without an additional license.
 
 ## Running software
