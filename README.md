@@ -1,4 +1,4 @@
-# BioKEM_docs
+# BioKEM user guide
 
 ## Goal
 This guide will introduce new and existing users of the CU-Boulder BioKEM facility to processing EM data on GPU compute nodes hosted on Blanca.
