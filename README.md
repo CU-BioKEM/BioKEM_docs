@@ -47,3 +47,7 @@ Labs interested in using the suite of ~400 programs must purchase a lab specific
 Commercial users are limited to a few preprocessing applications without an additional license.
 
 ## Running software
+In order to run software on BioKEM's Blanca server:
+  - Request access to Blanca through [Research Computing](https://rcamp.rc.colorado.edu/accounts/account-request/create/organization)
+  - Request a [Petalibrary](#petalibrary) allocation (~20TB/active project) by emailing [rc-help@colorado.edu](rc-help@colorado.edu) *make sure to have them create a 'biokem-deposit' folder for your lab to deposit Krios images into
+  -  Purchase an [SBGrid](#sbgrid) license for your lab
