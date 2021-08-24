@@ -1,5 +1,7 @@
 # BioKEM user guide
 
+[Return to Main Page.](https://cu-biokem.github.io/BioKEM_docs/)
+
 ## Goal
 This page will detail everything you need to initiate and be prepared for your first collection.
 
